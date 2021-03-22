@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+    line-height: 1.8;
+}
+.mainform{
+    background-color: white;
+    margin: 30px auto;
+    max-width: 300px;
+    padding: 15px 25px;
+}
+.mainform p,h1{
+ text-align: center;
+}
+.formclass{
+
+}
+a{
+ text-decoration: none;
+}
+.formclass,.mainform{
+    margin-top: 15px;
+}
+.formclass label{
+    color: #666;
+}
+.formclass input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px #ddd solid;
+}
+.formclass button{
+width: 100%;
+display: block;
+background-color: rgb(56, 182, 56);
+padding: 10px;
+color: white;
+border: none;
+cursor: pointer;
+}
+.formclass button :hover{
+    background-color: #37a08e;
+}
+.bottomtext{
+    font-size: 13px;
+} 
